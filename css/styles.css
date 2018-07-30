@@ -1,2 +1,12 @@
-h1 {color:white;}
-p {color:blue;}
+
+h1 {color:white;
+  font-family: 'Marvel';
+  font-size: 100px;
+}
+
+
+p {color:black;
+font-family: 'Shadows Into Light', cursive;font-size: 22px;}
+
+h3 {color:Yellow;
+  font-family:'Pacifico', cursive;font-size:80px;}
