@@ -1,13 +1,21 @@
+{/*The comma allows the headings on the page to be grouped so they look the same throughout*/}
+h1,h3 {color:purple;
+    font-family:'Pacifico', cursive;
+    font-size:80px;
+    text-align: center;
+}
 
-h1 {color:white;
+.intro {
+    background-color: lightblue;
+    border:4px solid black;
+}
+
+ {color:white;
     font-family: 'Marvel';
     font-size: 100px;
 }
 
-h3 {color:Yellow;
-    font-family:'Pacifico', cursive;
-    font-size:80px;
-  }
+
 
 
   p {color:black;
