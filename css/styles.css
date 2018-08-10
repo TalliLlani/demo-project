@@ -53,6 +53,32 @@ div {
   font-family: 'Hanalei Fill', cursive;
   font-size: 22px;
 }
+/*adding image styling*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    background-color: purple;
+
+}
+
+div.gallery:hover {
+    border:4px solid black;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+    color:white;
+    font-size: 25px;
+}
 
 /*social media icons*/
 /* Style all font awesome icons */
