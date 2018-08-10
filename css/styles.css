@@ -23,7 +23,15 @@ h1,h3 {
     float: left; /* Float the buttons side by side */
     margin: 4px 2px;
     font-size: 20px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  /* how do i add styling to visited/ selected links? */
 }
+
+  /* how do i make the header keep in place when scrolling the page*/
+
+
 
 /* Add a background color on hover */
 .btn-group button:hover {
@@ -38,6 +46,7 @@ h1,h3 {
     color:black;
     font-family: 'Shadows Into Light', cursive;
     font-size: 22px;
+      margin: 40px 38px;
   }
 
 div {
