@@ -10,6 +10,10 @@ h1,h3 {
     background-color: lightblue;
     border:4px solid black;
 }
+a:link{color:hotpink;}/*unvisted link*/
+a:visited{color:pink}/*visited link*/
+a:hover{color:orange}/*mouse over link*/
+a:active{color:red}/*selected link*/
 
 /*Heading buttons styling*/
 .btn-group button {
