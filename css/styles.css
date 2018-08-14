@@ -37,7 +37,36 @@ h1,h3 {
     top: 0;
   /* how do i add styling to visited/ selected links? */
 }
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: hotpink
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a:hover {background-color: pink
+}
+.dropdown-content:hover.dropdown-content {
+  display: block;
+}
+.dropbtn:hover .dropbtn {
+  background-color: orange
+}
   /* how do i make the header keep in place when scrolling the page*/
 
 
@@ -49,6 +78,10 @@ h1,h3 {
 
 /* Add a background color on hover -  */
 .btn-group button:hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:4px solid black;
     background-color: black;/*mouse over link*/
     font-family:'Pacifico', cursive;
     color:white;
@@ -92,7 +125,7 @@ div.desc {
     padding: 5px;
     text-align: center;
     font-family:'Pacifico', cursive;
-    color:white;
+    color: white;
     font-size: 25px;
 }
 
@@ -140,7 +173,7 @@ div.desc {
   color: white;
 }
 
-.fa-snapchat-ghost {
+.fa-snapchat {
   background: yellow;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -149,4 +182,13 @@ div.desc {
 .fa-flickr {
   background: #f40083;
   color: white;
+}
+
+/*this is used to center the menu buttons*/
+.center {
+    border: 3px solid #73AD21;
+        padding-top: 5%;
+        padding-right: 1%;
+        padding-bottom: 8%;
+        padding-left: 20%;
 }
