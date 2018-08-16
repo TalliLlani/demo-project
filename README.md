@@ -79,5 +79,3 @@ Fill holes in walls
 Complete office edging 
 
 Print / frame picture of me playing bass 
-
-Buy white stockings and blonde / black wig 
