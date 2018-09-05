@@ -1,8 +1,10 @@
+/*The comma allows the headings on the page to be grouped so they look the same throughout*/
+
 .container > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 80px;
   color: purple;
   font-family:'Pacifico', cursive;
   }
@@ -29,17 +31,79 @@ html, body {
     }
 
   .container > div:nth-child(2n) {
-    background-color: #ff6f69;
+    background-color: #303e4a;
     padding:0 80px;
     }
 
   .container > div:nth-child(4n) {
-    background-color: darkgrey;
+    background-color: black;
     }
 
   .menu > div {
-  colour:  #ff6f69;
+  background-color: purple;
   display: flex;
   align-items: center;
   padding: 0px 40px;
+  color:white;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  margin: 20px 0px;
+  }
+
+
+  /*social media icons*/
+  /* Style all font awesome icons */
+
+  .fa,.gallery.html {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 70px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    margin: 10px 30px;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+  .fa-snapchat {
+    background: yellow;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-flickr {
+    background: #f40083;
+    color: white;
   }
