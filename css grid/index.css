@@ -1,0 +1,30 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns:border: repeat (12, 1fr);/*1fr 1fr 1fr or repeat (3, 1fr), for fleibily many columns work best - written repeat(12-,(columns taking taking up 1fr);*/
+  grid-template-rows:repeat 40px auto 40px;
+  grid-template-areas:
+  "h h h h h h h h h h h h"   /* This is a visual representation of how the grid will look. Each h is a cell for each column as it has to match the amount of columns*/
+  "m m m m m m m m m m m m"
+  "c c c c c c c c c c c c"
+  "f f f f f f f f f f f f";
+}
+
+.header {
+  grid-area: h;
+}
+
+.menu {
+  grid-area: m;
+  display:flex;
+}
+
+
+.content {
+  grid-area: c;
+}
+
+.footer {
+  grid-area: f;
+}
