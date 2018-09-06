@@ -1,5 +1,6 @@
 .container {
   height: 100%;
+  width: 100%;
   display: grid;
   grid-gap: 3px;
   grid-template-columns:border: repeat (12, 1fr);/*1fr 1fr 1fr or repeat (3, 1fr), for fleibily many columns work best - written repeat(12-,(columns taking taking up 1fr);*/
@@ -18,6 +19,7 @@
 .menu {
   grid-area: m;
   display:flex;
+
 }
 
 

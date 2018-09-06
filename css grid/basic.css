@@ -24,6 +24,7 @@ html, body {
 
   .container > div:nth-child(3n) {
     background-color: white;
+    align-items: center;
     color:black;
     font-family: 'Shadows Into Light', cursive;
     font-size: 22px;
