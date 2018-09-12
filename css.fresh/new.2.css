@@ -1,0 +1,89 @@
+.grid-container {
+  display: grid;
+  height: auto;/*height of container*/
+  align-content: space-around;/*aligns rows in the container*/
+  justify-content: space-evenly;/*justifys column space in the container*/
+  grid-template-columns: 1fr 1fr 1fr;/*Controls column size (Make the grid smaller than the container)*/
+  /*grid-template-rows: 100px auto 65px auto;Controls row size (Make the grid smaller than the container)*/
+  grid-auto-rows: minmax (100px, auto);
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border: 3px solid black;
+}
+.item1,.item2,.item5 {
+  grid-column: 1 / span 3;
+}
+
+  .item3 {
+    grid-column: 1 / span 2;
+    align-items:center;
+    color:black;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 22px;
+    margin: 20px 0px;
+  }
+
+  /*social media icons*/
+  /* Style all font awesome icons */
+
+  .fa,.gallery.html {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 70px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    margin: 10px 30px;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+  .fa-snapchat {
+    background: yellow;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
