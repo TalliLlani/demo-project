@@ -57,6 +57,15 @@ margin: 20px 0px;
   font-size: 40px;
 }
 
+.item1> div:hover{
+  margin: 20px 10px;
+  border:4px solid black;
+  background-color: lightblue;/*mouse over link*/
+  font-family:'Pacifico', cursive;
+  color:white;
+  font-size: 40px;
+}
+
 .item3 {
     grid-column: 1 / span 2;
 }
