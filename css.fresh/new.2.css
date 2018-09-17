@@ -45,6 +45,17 @@ font-family: 'Pacifico', cursive;
 font-size: 40px;
 margin: 20px 0px;
 }
+.item1 >button{
+  background-color: purple; /* purple background */
+  border: 1px solid black; /* black border */
+  border-radius: 5px;
+  font-family:'Pacifico', cursive;
+  color: white; /* White text */
+  padding: 0px 40px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  margin: 20px 10px;
+  font-size: 40px;
+}
 
 .item3 {
     grid-column: 1 / span 2;
