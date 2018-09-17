@@ -21,8 +21,8 @@
 
 h1{
   font-family:'Pacifico', cursive;
-  color: purple;
-  background-color: lightblue;
+  color: white;
+  background-color: purple;
   text-align: center;
   padding: 20px 0;
   font-size: 60px;
@@ -32,11 +32,13 @@ h1{
   grid-column: 1 / span 3;
 }
 
-.item2 > div {
+.item1{
+  display: flex;
+}
+.item1 > div {
 background-color: black;
-display: grid;
-grid-column: 1 / span 3;
-align-items: left;
+grid-column: 1 / -1;
+align-items: center;
 padding: 0px 40px;
 color:white;
 font-family: 'Pacifico', cursive;
@@ -71,7 +73,7 @@ margin: 20px 0px;
 
 .item4 > div{
   border:#333 3px solid;
-  background-color: #8e59a5
+  background-color: #8e59a5;
   text-align: center;
   color:white;
   font-family: 'Shadows Into Light', cursive;
