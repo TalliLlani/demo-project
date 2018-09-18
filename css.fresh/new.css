@@ -1,0 +1,40 @@
+.grid-container {
+  display: grid;
+  height: 600px;/*height of container*/
+  align-content: space-around;/*aligns rows in the container*/
+  justify-content: space-evenly;/*justifys column space in the container*/
+  grid-template-columns: 100px auto 100px;/*Controls column size (Make the grid smaller than the container)*/
+  grid-template-rows: 100px auto 65px 50px;/*Controls row size (Make the grid smaller than the container)*/
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border: 3px solid black;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}/*Refers to line numbers when placing a grid item in a grid container*/
+
+.item2 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}/*Refers to line numbers when placing a grid item in a grid container*/
+
+.item4 {
+  grid-column: 1 / 5;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+}/*To place an item, you can refer to line numbers, or use the keyword "span" to define how many columns the item will span*/
+
+.item5 {
+  grid-column: 1 / span 3;
+}
